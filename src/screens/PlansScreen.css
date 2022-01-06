@@ -1,0 +1,39 @@
+.plansScreen__plan {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding: 20px;
+   opacity: 0.8; 
+}
+
+.plansScreen__CurrentPlan {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.plansScreen__CurrentPlan > button {
+    background-color: gray !important ;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    font-weight: 600;
+}
+
+.plansScreen__plan:hover {
+    opacity: 1;
+}
+
+.plansScreen__plan > button {
+   padding: 10px 20px;
+   font-size: 1rem;
+   color: #fff;
+   background-color: #e50914; 
+   cursor: pointer;
+   border: none;
+   font-weight: 600;
+}
+
