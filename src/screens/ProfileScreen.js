@@ -20,7 +20,7 @@ function ProfileScreen() {
                         <div className="profileScreen__plans">
                             <h3>Plans (Current plan: premium)</h3>
                             <PlansScreen />
-                            <button onClick={() => auth.signOut()}      className='profileScreen__signout'>Sign Out</button>
+                            <button onClick={() => auth.signOut()} className='profileScreen__signout'>Sign Out</button>
                         </div>
                     </div>
                 </div>

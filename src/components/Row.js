@@ -29,6 +29,7 @@ function Row({title, fetchUrl, isLargeRow = false}) {
     const handleClick = (movie) => {
         if (trailerURL) {
             setTrailerURL("");
+            
           } else {
             movieTrailer(movie?.name || movie?.title || movie?.original_title || "")
               .then((url) => {
@@ -36,13 +37,12 @@ function Row({title, fetchUrl, isLargeRow = false}) {
                 setTrailerURL(urlParams.get("v"));
               })
               .catch((error) => console.log(error));
-          
+              
         };
       
     }
     
-
-    console.log(movies)
+    // console.log(movies)
     return (
         <div className='row'>
             <h2>{title}</h2>
@@ -59,7 +59,7 @@ function Row({title, fetchUrl, isLargeRow = false}) {
                 )    
                 )}
             </div>
-            {trailerURL && <YouTube videoId={trailerURL} opts={opts} />}
+            {trailerURL && <YouTube videoId={trailerURL} opts={opts}  />}
 
             
         </div>

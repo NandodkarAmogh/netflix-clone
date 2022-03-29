@@ -1,11 +1,11 @@
-import React from 'react';
-import './HomeScreen.css';
+import React, { useState } from 'react';
 import Nav from "../components/Nav"
 import Banner from '../components/Banner';
 import Row from '../components/Row';
 import requests from '../Requests';
 
 function Homescreen() {
+    const [playing, setPlaying] = useState(false)
     return (
         <div className='homeScreen'>
             <Nav />
@@ -29,7 +29,7 @@ function Homescreen() {
             />
             <Row 
                 title = "Comedy Movies"
-                fetchUrl ={requests.fetchActionMovies}
+                fetchUrl ={requests.fetchComedyMovies}
             />
             <Row 
                 title = "Horror Movies"

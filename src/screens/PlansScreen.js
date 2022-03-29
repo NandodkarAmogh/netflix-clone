@@ -20,14 +20,6 @@ function PlansScreen() {
                     </div>
                     <button>Subscribe</button>
                 </div>
-                {/* <div className="plansScreen__CurrentPlan">
-                    <div className="plansScreen__info">
-                        <h5>Netflix Premium</h5>
-                        <h6>4k+HDR</h6>
-                    </div>
-
-                    <button>Current Package</button>
-                </div> */}
             </div>
             <div className="plansScreen__CurrentPlan">
                 <div className="plansScreen__info">

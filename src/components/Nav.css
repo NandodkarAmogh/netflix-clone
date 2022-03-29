@@ -37,3 +37,9 @@
     width: 30px;
     
 }
+
+@media (max-width : 450px) {
+    .nav_avatar {
+        right: 20px;
+    }
+}
