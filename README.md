@@ -1,4 +1,4 @@
-# netflix-clone
+# Netflix Build
 
 
 ## Table of contents
@@ -42,7 +42,7 @@ A Netflix clone demonstrating my abilities in React JS to build something advanc
 
 ### Links
 
-- Solution URL: [https://github.com/NandodkarAmogh/ShareIt](https://github.com/NandodkarAmogh/ShareIt)
+- Solution URL: [https://github.com/NandodkarAmogh/netflix-clone](https://github.com/NandodkarAmogh/netflix-clone)
 - Live Site URL: [https://react-netflix-build.netlify.app/](https://react-netflix-build.netlify.app/)
 
 ## My process
@@ -56,7 +56,7 @@ A Netflix clone demonstrating my abilities in React JS to build something advanc
 - [Firebase] (https://firebase.google.com/) - for user authentication
 ### What I learned
 
-A Netflix clone demonstrating my abilities in React JS to build something advanced like Netflix. It consists of a home screen, sign-in screen with validation using react-hook-form, sign -up screen, home screen depicting various shows according to categories and a movie player to play the trailer of the respective show as per the user's liking.
+The biggest lesson I learnt while building this project was how to break the whole project into smaller chunks and then accumulating these at the end to build back the application. I used CSS3 for designing which helped me in revisiting important concepts like flexbox and media queries. I also worked with react-hook-form for form validation and firebase for user authentication.
 
 ## Author
 
