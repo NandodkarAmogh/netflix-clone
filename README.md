@@ -1,14 +1,13 @@
 # Netflix Build
 
-
 ## Table of contents
 
 - [Overview](#overview)
   - [Demo](#demo)
+  - [Links](#links)
   - [Screenshot](#screenshot)
     - [Desktop](#desktop)
     - [Mobile](#mobile)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -21,6 +20,11 @@ A Netflix clone demonstrating my abilities in React JS to build something advanc
 ### Demo
 ![](./public/images/demo.gif)
 
+
+### Links
+
+- Solution URL: [https://github.com/NandodkarAmogh/netflix-clone](https://github.com/NandodkarAmogh/netflix-clone)
+- Live Site URL: [https://react-netflix-build.netlify.app/](https://react-netflix-build.netlify.app/)
 
 ### Screenshots
 
@@ -39,11 +43,6 @@ A Netflix clone demonstrating my abilities in React JS to build something advanc
 ![](./public/images/mobile4.png)
 ![](./public/images/mobile5.png)
 ![](./public/images/mobile6.png)
-
-### Links
-
-- Solution URL: [https://github.com/NandodkarAmogh/netflix-clone](https://github.com/NandodkarAmogh/netflix-clone)
-- Live Site URL: [https://react-netflix-build.netlify.app/](https://react-netflix-build.netlify.app/)
 
 ## My process
 
